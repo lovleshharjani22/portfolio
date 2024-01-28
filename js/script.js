@@ -75,7 +75,7 @@ window.addEventListener("load", event => {
 });
 
 window.addEventListener("beforeunload", event => {
-    event.preventDefault();
+    // event.preventDefault();
     main.animate([{
             opacity: 1,
             transform: "translateY(0)"
